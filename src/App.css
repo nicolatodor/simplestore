@@ -13,16 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +25,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: rgb(253, 239, 221);
+}
+.buy{
+  width: 111px;
+  height: 26px;
+  background-color: #673AB7;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+}
+.offer{
+  margin-bottom: 30px;
+}
+
+.headMenu{
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.naslov{
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(6, 6, 93);
+  width: 400px;
+
+}
+
+.izbor{
+  margin: 0 auto;
+  
+  
+  border: 2px solid #673AB7;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.offermain{
+  margin: 0 auto;
+  width: 500px;
+}
+
+#end{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 500px;
+  font-weight: 600;
+}
+
+#endtwo{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 500px;
+  font-weight: 600;
+}
+
+.like{
+  width: 111px;
+    background: #673ab7;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 26px;
+
+}
+
+.samelineadd{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+  
+}
+
+.addbtn{
+
+  width: 111px;
+    height: 26px;
+    background: #673ab7;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+.info{
+  margin: 10px;
 }
